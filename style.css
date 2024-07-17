@@ -59,10 +59,6 @@ h1{
     font-weight: 400;
 }
 
-/* .lists:hover{
-    font-weight: bold;   
-} */
-
 .sect-1 p {
     color: white;
     font-size: 1.1em;
@@ -104,10 +100,9 @@ h1{
          #btn1 {
              background-color: white;
              color: hsl(353, 100%, 62%);
-             transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+             transition: background-color 0.3s, color 0.3s; 
          }
 
-  /* Hover effect */
          #btn1:hover {
     background-color: hsl(355, 100%, 74%);
     color: white;
@@ -116,7 +111,7 @@ h1{
         #btn2{
     border: 1px solid white;
     color: white;
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, color 0.3s; 
          }
 
         #btn2:hover {
@@ -149,10 +144,6 @@ h2{
     flex-direction: column;
     gap: 1em;
 }
-/* #info1{
-    margin-top: -10px;
-  
-}  */
 
 .sect-2 p , .sect-4 p{
     font-size: 1em;
@@ -423,7 +414,6 @@ button,a {
    }
    
 nav{
-  
     display: flex;
     position: relative;
     flex-direction: row;
@@ -497,11 +487,11 @@ nav{
         .navlink li a{
            text-align: center;
            text-decoration: none;
-           transition: font-weight 0.3s; /* Smooth transition for font-weight */            
+           transition: font-weight 0.3s;             
         }
 
         .navlink li a:hover {
-           font-weight: bold; /* Make text bold on hover */    
+           font-weight: bold;  
         }
 
 nav button:hover{
@@ -538,10 +528,6 @@ text-decoration: none;
     width: fit-content;
     overflow-x: hidden;
 }
-
-/* h2,p {
-    text-align: start;
-} */
 
 .sect-2{
 
@@ -626,14 +612,13 @@ min-height: 100px;
 .sect-4 .info {
     grid-column: 2/3;
     margin: 100;
-    padding: 0; /* Remove any padding that might add extra space */
+    padding: 0; 
 }
 
 .sect-4 .info:nth-of-type(1) {
     align-self: flex-start;
 }
 
-/* Optional: Add padding or margin to individual elements if needed */
 .sect-4 .info h2 {
     margin-top: 0px;
 }
@@ -641,8 +626,6 @@ min-height: 100px;
 .sect-4 .info p {
     margin-bottom: 0px;
 }
-
-
 
 .sect-4 img {
     grid-column: 1/2;
